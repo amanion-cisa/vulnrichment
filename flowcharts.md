@@ -1,6 +1,6 @@
 # Vulnrichment flowcharts
 
-This is the flowchart for processing [new CVE Records](assets/flowcharts.md-1.png). 
+This is the flowchart for processing [new CVE Records](assets/flowcharts.md-1.svg). 
 
 ```mermaid
 ---
@@ -48,7 +48,7 @@ flowchart TD
     github --> done
 ```
 
-This is the flowchart for processing [updated CVE Records](assets/flowcharts.md-1.png).
+This is the flowchart for processing [updated CVE Records](assets/flowcharts.md-1.svg).
 
 ```mermaid
 ---
