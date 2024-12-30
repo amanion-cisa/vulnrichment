@@ -1,6 +1,6 @@
 # Vulnrichment flowcharts
 
-This is the flowchart for processing [new CVE Records](assets/flowcharts.md-1.svg). 
+This is the flowchart for processing [new CVE Records](assets/flowcharts.md-1.png). 
 
 ```mermaid
 ---
@@ -48,7 +48,7 @@ flowchart TD
     github --> done
 ```
 
-This is the flowchart for processing [updated CVE Records](assets/flowcharts.md-1.svg).
+This is the flowchart for processing [updated CVE Records](assets/flowcharts.md-1.png).
 
 ```mermaid
 ---
@@ -117,6 +117,5 @@ To generate images:
 
 ```
 npm install -g @mermaid-js/mermaid-cli
-mmdc -i flowcharts.md -t neutral -e png -s 2
-mmdc -i flowcharts.md -t neutral -e svg
+mmdc -i flowcharts.md -t neutral -e png -s 2 -b transparent
 ```
