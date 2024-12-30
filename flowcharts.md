@@ -48,7 +48,7 @@ flowchart TD
     github --> done
 ```
 
-This is the flowchart for processing [updated CVE Records](assets/flowcharts.md-1.png).
+This is the flowchart for processing [updated CVE Records](assets/flowcharts.md-2.png).
 
 ```mermaid
 ---
