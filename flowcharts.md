@@ -1,15 +1,6 @@
-# Flowcharts
+# Vulnrichment flowcharts
 
-Maybe offer rendered .svg or .png? If so, here's how:
-
-```
-npm install -g @mermaid-js/mermaid-cli
-mmdc -i vulnrichment_new_cve.mermaid -o vulnrichment_new_cve.svg -b transparent -t neutral
-mmdc -i vulnrichment_new_cve.mermaid -o vulnrichment_new_cve.svg
-mmdc -i vulnrichment_new_cve.mermaid -o vulnrichment_new_cve.png
-```
-
-This is the flowchart for processing new CVE Records. 
+This is the flowchart for processing [new CVE Records](assets/flowcharts.md-1.png). 
 
 ```mermaid
 ---
@@ -57,7 +48,7 @@ flowchart TD
     github --> done
 ```
 
-This is the flowchart for processing updated CVE Records.
+This is the flowchart for processing [updated CVE Records](assets/flowcharts.md-1.png).
 
 ```mermaid
 ---
@@ -120,4 +111,12 @@ flowchart TD
     publish --> github
     adp --> done
     github --> done
+```
+
+To generate images:
+
+```
+npm install -g @mermaid-js/mermaid-cli
+mmdc -i flowcharts.md -t neutral -e png -s 2
+mmdc -i flowcharts.md -t neutral -e svg
 ```
