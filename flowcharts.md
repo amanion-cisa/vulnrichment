@@ -113,9 +113,9 @@ flowchart TD
     github --> done
 ```
 
-To generate images:
+To generate images use `mermaid-cli`.
 
 ```
 npm install -g @mermaid-js/mermaid-cli
-mmdc -i flowcharts.md -t neutral -e png -s 2 -b transparent
+mmdc -i flowcharts.md -t neutral -e png -s 2
 ```
